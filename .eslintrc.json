@@ -1,0 +1,19 @@
+{
+    "extends": "airbnb",
+    "installedESLint": true,
+    "plugins": [
+        "react",
+        "react-native",
+        "jsx-a11y",
+        "import"
+    ],
+    "parser": "babel-eslint",
+    "rules": {
+      "semi": [2, "never"],
+      "no-use-before-define": 0,
+      "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+      "arrow-body-style": [0, "as-needed"],
+      "import/no-named-as-default-member": 0,
+      "react/forbid-prop-types": [1]
+    }
+}
